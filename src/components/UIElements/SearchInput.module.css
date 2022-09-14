@@ -1,0 +1,17 @@
+.inputContainer {
+  background: #f2f2f2;
+  border-radius: 23px;
+}
+
+.inputContainer input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.26px;
+
+  color: #555555;
+}
