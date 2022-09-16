@@ -5,24 +5,6 @@ import styles from "./Button.module.css";
 // import { ButtonProps } from "../../types";
 
 const Button = ({ variant, type, icon, label, disabled, onClick }) => {
-  const btnStyles = `${styles.btn} ${
-    variant === "primary"
-      ? styles.primary
-      : variant === "text"
-      ? styles.text
-      : variant === "textIcon"
-      ? styles.textIcon
-      : variant === "icon"
-      ? styles.icon
-      : variant === "iconBg"
-      ? styles.iconBg
-      : variant === "disabled"
-      ? styles.disabled
-      : variant === "danger"
-      ? styles.danger
-      : ""
-  }`.trim();
-
   return (
     <button
       type={type || "button"}

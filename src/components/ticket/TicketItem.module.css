@@ -1,0 +1,27 @@
+table tr {
+  border-bottom: 1px solid var(--color-border);
+}
+
+table td + td {
+  padding-left: 30px;
+}
+
+.ticket a {
+  display: block;
+  letter-spacing: 0.26px;
+  text-transform: capitalize;
+}
+
+.ticket a:first-child {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  color: var(--color-blue);
+}
+
+.ticket a:nth-child(2) {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--color-dark-gray);
+}

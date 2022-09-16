@@ -1,0 +1,5 @@
+export const TICKET_STATUS = {
+  OPEN: "OPEN",
+  RESOLVED: "RESOLVED",
+  FEEDBACK: "FEEDBACK",
+};

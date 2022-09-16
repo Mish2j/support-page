@@ -3,7 +3,7 @@ import ForumSection from "../forum/ForumSection";
 
 const Main = () => {
   return (
-    <main>
+    <main className="wrapper">
       <ForumSection />
       <TicketSection />
     </main>

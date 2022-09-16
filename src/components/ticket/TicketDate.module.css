@@ -1,0 +1,8 @@
+.date time {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 0.26px;
+  text-transform: capitalize;
+  color: var(--color-dark-gray);
+}

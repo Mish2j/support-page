@@ -1,0 +1,23 @@
+.container a {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--color-dark-gray);
+}
+
+.container button {
+  background: var(--color-blue);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 13px 25px;
+  color: var(--color-white);
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.container button svg {
+  margin-right: 5px;
+}

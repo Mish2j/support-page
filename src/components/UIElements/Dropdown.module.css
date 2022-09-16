@@ -1,0 +1,71 @@
+.fieldset.open {
+  border: 1px solid var(--color-blue);
+}
+
+/* .dropdown {
+  position: relative;
+} */
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 0.26px;
+  color: #000000;
+
+  cursor: pointer;
+}
+
+.dropdown span {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.26px;
+  color: #000000;
+
+  margin-left: 10px;
+
+  background: #e6e6e6;
+  padding: 4px;
+  border-radius: 100%;
+}
+
+.dropdown p {
+}
+
+.dropdown svg {
+  font-style: normal;
+  font-size: 10px;
+  line-height: 10px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin-left: 5px;
+}
+
+/* .fieldset.open p {
+  color: var(--color-black);
+} */
+
+/* .dropdown svg {
+  font-size: 1.3rem;
+} */
+
+/* .dropdownOptions {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  top: 0;
+  border-top: 1px solid var(--color-blue);
+  border-radius: 0px 0px 3px 3px;
+  height: 12rem;
+  overflow: auto;
+}
+
+
+*/
