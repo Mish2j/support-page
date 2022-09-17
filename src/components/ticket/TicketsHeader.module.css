@@ -3,6 +3,6 @@
   align-items: center;
 }
 
-.container div + div {
+.container > * + * {
   margin-left: 25px;
 }

@@ -81,10 +81,13 @@ const TicketSection = () => {
 
   //   fetchTickets();
   // }, [tickets]);
-  tickets.length = 0;
+
   return (
     <Section>
-      <Container title="My Tickets" type={"tickets"}>
+      <Container
+        title="My Tickets"
+        type={tickets.length === 0 ? null : "tickets"}
+      >
         {tickets.length === 0 ? <NoTicket /> : <TicketList tickets={tickets} />}
       </Container>
     </Section>

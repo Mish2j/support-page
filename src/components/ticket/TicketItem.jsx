@@ -11,7 +11,9 @@ const TicketItem = ({ ticket }) => {
         <a href={ticket.url}>{ticket.title}</a>
         <a href={ticket.forum?.url}>{ticket.forum?.title}</a>
       </td>
-      <TicketStatus status={ticket.status} />
+      <td className={styles.ticket}>
+        <TicketStatus status={ticket.status} />
+      </td>
       <TicketDate time={ticket.created_time_utc} />
       <TickeReply
         replies={ticket.num_replies}
